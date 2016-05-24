@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
+body {
+  background-color: #f0f0f0;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif; }
+
+i {
+  margin: 35px; }
+
+.f {
+  color: #f16c6c; }
+
+.main-wrap {
+  text-align: center;
+  background-color: #333333;
+  margin-top: 70px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px black; }
+
+.temp {
+  font-size: 52px;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.current-desc {
+  font-size: 18px;
+  text-transform: uppercase; }
+
+.weatherIcon {
+  font-size: 56px; }
+
+.windSpeed {
+  font-size: 14px; }
+
+.gitHub {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: black;
+  font-size: 16px; }
+
+.gitHub:hover {
+  cursor: pointer;
+  filter: brightness(100%);
+  -webkit-filter: brightness(100%);
+  -moz-filter: brightness(100%);
+  transition: all 0.5s; }
+
+.fa-gitgub {
+  margin-right: 10px; }
+
+.search {
+  width: 100%;
+  margin-top: 40px;
+  background-color: transparent;
+  border: none;
+  font-size: 14px;
+  border-bottom: 1px solid #5bd8df;
+  padding: 16px;
+  text-align: center;
+  text-transform: uppercase; }
+
+.search:focus {
+  outline: none; }
+
+::-webkit-input-placeholder {
+  color: #ffffff; }
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #ffffff; }
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #ffffff; }
+
+:-ms-input-placeholder {
+  color: #ffffff; }
+
+.button {
+  background-color: transparent;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 10px; }
+
+.button:focus {
+  outline: none; }
+
+.button:hover {
+  transition: all 1s;
+  color: #ffffff;
+  background-color: #48b1be;
+  box-shadow: 2px 2px 2px black; }
+
+/*# sourceMappingURL=main.css.map */

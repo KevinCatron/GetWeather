@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>GetWeather</title>
+    <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <link rel="stylesheet" href="stylesheets/weather-icons-wind.css">
+    <link rel="stylesheet" href="stylesheets/weather-icons-wind.min.css">
+    <link rel="stylesheet" href="stylesheets/weather-icons.css">
+    <link rel="stylesheet" href="stylesheets/weather-icons.min.css">
+
+
+
+  </head>
+  <body>
+    <div class="container">
+
+      <p class="gitHub">
+    		<span class="fa fa-github"></span>&nbsp;View
+    		  <a href="https://github.com/KevinCatron/GetWeather" target="_blank">Repository on GitHub</a>
+    	</p>
+
+      <div class="col-md-4 col-md-offset-4 main-wrap animated fadeInDownBig">
+        <div class="weatherIcon"></div>
+          <div class="forecast"></div>
+            <div class="city">
+              <h1 class="cityText"></h1>
+            </div>
+              <div class="currently">
+                <div class="icon current-icon"></div>
+                  <div class="current-conditions">
+                    <div class="current-temp">
+                      <h1 class="temp"><span class='f'>F</span></h1>
+                        <span class="current-desc"></span><br><br>
+                          <span class="windSpeed"></span>
+                    </div>
+
+  <search>
+    <form>
+      <input class="search" type="search" name="search" placeholder="ENTER CITY, COUNTRY"/>
+        <input class="button" id="searchTerm" type="button" value="SEARCH"/>
+  </search>
+    </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script src="functions/main.js"></script>
+
+  </body>
+</html>

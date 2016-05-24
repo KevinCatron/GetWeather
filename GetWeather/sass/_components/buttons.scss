@@ -1,0 +1,54 @@
+//MAIN CSS FOR THE INPUT/SEARCH
+.search{
+
+  width: 100%;
+  margin-top: 40px;
+  background-color: transparent;
+  border: none;
+  font-size: 14px;
+  border-bottom: 1px solid #5bd8df;
+  padding: 16px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.search:focus{
+  outline: none;
+}
+
+::-webkit-input-placeholder {
+   color: $textColor;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: $textColor;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: $textColor;
+}
+
+:-ms-input-placeholder {
+   color: $textColor;
+}
+
+//MAIN CSS FOR THE SUBMIT BUTTON
+.button{
+  background-color: transparent;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.button:focus{
+  outline: none;
+}
+
+.button:hover{
+  transition: all 1s;
+  color: $textColor;
+  background-color: #48b1be;
+  box-shadow: 2px 2px 2px black;
+}
